@@ -15,6 +15,41 @@ A single-board platform based on the STM32H5 family for evaluating Ethernet, USB
 | Display | TFT, 3.5", 320 × 480, ST7796S controller, no touch panel (Powertip PH320480T009-LAA01), driven over SPI |
 | Firmware | Proposed: a common SCPI command core shared by USB and Ethernet; BLE and the display act as additional views of the same data |
 
+## Architecture
+
+```mermaid
+flowchart LR
+    Host[SCPI host]
+    USB[USB-C<br/>5 V sink]
+    PHY[Ethernet PHY<br/>proposed: LAN8742A]
+    RJ45[RJ45]
+    BLE[BLE device<br/>proposed: BlueNRG-2]
+    Antenna[Custom antenna<br/>pi matching network]
+    Display[TFT display<br/>ST7796S]
+    MCU[STM32H5<br/>USB, RMII, SPI<br/>shared SCPI core proposed]
+    Inputs[2 analog input stages<br/>op amps and filters]
+    Outputs[2 analog output stages<br/>op amps and buffers]
+    ADC[Internal ADC]
+    DAC[Internal DAC]
+    AnalogIn[Analog input signals]
+    AnalogOut[Analog output signals]
+
+    Host <-->|USB-TMC / SCPI| USB
+    USB <-->|USB| MCU
+    Host <-->|SCPI over TCP<br/>proposed, port 5025| RJ45
+    RJ45 <--> PHY
+    PHY <-->|RMII| MCU
+    MCU <-->|UART / data view| BLE
+    BLE --- Antenna
+    MCU <-->|Dedicated SPI / data view| Display
+    AnalogIn --> Inputs
+    Inputs --> ADC
+    ADC --> MCU
+    MCU --> DAC
+    DAC --> Outputs
+    Outputs --> AnalogOut
+```
+
 ## Display
 
 | Parameter | Value |
