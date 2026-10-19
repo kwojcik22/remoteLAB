@@ -1,0 +1,4 @@
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/build/CMakeFiles/remoteLAB_Appli.dir
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/build/CMakeFiles/STM32_Drivers.dir
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/build/CMakeFiles/edit_cache.dir
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/build/CMakeFiles/rebuild_cache.dir

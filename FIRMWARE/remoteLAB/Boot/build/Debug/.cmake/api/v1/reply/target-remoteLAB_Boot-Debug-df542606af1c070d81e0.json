@@ -1,0 +1,467 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "remoteLAB_Boot.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"mx-generated.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 3
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@6890427a1f51a3e7e1df"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32H7R3xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/STM32H7RSxx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -x assembler-with-cpp -MMD -MP -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32H7R3xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/STM32H7RSxx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/../Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "remoteLAB_Boot::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -T \"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot/stm32h7r3xx_flash.ld\" --specs=nano.specs -Wl,-Map=remoteLAB_Boot.map -Wl,--gc-sections -Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"fragment" : "m"
+		}
+	],
+	"name" : "remoteLAB_Boot",
+	"nameOnDisk" : "remoteLAB_Boot.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"backtraces" : 
+			[
+				5
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"backtraces" : 
+			[
+				5
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32h7rsxx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"backtraces" : 
+			[
+				5
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32h7rsxx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"backtraces" : 
+			[
+				5
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"backtraces" : 
+			[
+				5
+			],
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"backtraces" : 
+			[
+				5
+			],
+			"compileGroupIndex" : 1,
+			"path" : "Core/Startup/startup_stm32h7r3xx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/Core/Src/system_stm32h7rsxx.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_cortex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_pwr.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_pwr_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_rcc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_rcc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_flash.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_flash_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_gpio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_dma.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_dma_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"backtraces" : 
+			[
+				4
+			],
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/STM32_Drivers.dir/C_/Projekty__smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_exti.c.obj",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

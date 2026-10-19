@@ -1,0 +1,29 @@
+# ninja log v5
+7	292	8141163579791704	Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir	da6c8e5e4c1774fe
+7	292	8141163579791704	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir	da6c8e5e4c1774fe
+12	379	8141163581168166	Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir	d146afc462249c44
+1614	3510	8141163613389837	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure	f332ee9d28fee5ac
+7702	7835	8141163656672706	Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-done	4bc551047b53a592
+809	1399	8141163592126948	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update	8157f13daebdcf38
+12	379	8141163581168166	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir	d146afc462249c44
+292	792	8141163586005084	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download	61a6576f2a9171a2
+379	1012	8141163587687994	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download	616a08f2f15316f6
+292	792	8141163586005084	Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download	61a6576f2a9171a2
+379	1012	8141163587687994	Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download	616a08f2f15316f6
+809	1399	8141163592126948	Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update	8157f13daebdcf38
+1012	1449	8141163592688900	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update	16d4ceb92c33af37
+1012	1449	8141163592688900	Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update	16d4ceb92c33af37
+1399	1614	8141163594366602	Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch	130dae30d1130e9a
+7952	8098	8141163659265948	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-done	ff7f4209fed9539e
+1399	1614	8141163594366602	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch	130dae30d1130e9a
+1449	1641	8141163594671606	Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch	51adb9be08021c2c
+1449	1641	8141163594671606	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch	51adb9be08021c2c
+1642	3478	8141163613100644	Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure	ded805d0110e5e72
+7702	7835	8141163656672706	CMakeFiles/remoteLAB_Boot-complete	4bc551047b53a592
+1642	3478	8141163613100644	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure	ded805d0110e5e72
+1614	3510	8141163613389837	Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure	f332ee9d28fee5ac
+7702	7835	8141163656672706	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot/src/remoteLAB_Boot-stamp/remoteLAB_Boot-done	4bc551047b53a592
+7702	7835	8141163656672706	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Boot-complete	4bc551047b53a592
+7952	8098	8141163659265948	CMakeFiles/remoteLAB_Appli-complete	ff7f4209fed9539e
+7952	8098	8141163659265948	Appli/src/remoteLAB_Appli-stamp/remoteLAB_Appli-done	ff7f4209fed9539e
+7952	8098	8141163659265948	C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Appli-complete	ff7f4209fed9539e

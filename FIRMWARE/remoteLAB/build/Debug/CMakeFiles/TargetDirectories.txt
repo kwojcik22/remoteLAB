@@ -1,0 +1,4 @@
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Appli.dir
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Boot.dir
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/edit_cache.dir
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/rebuild_cache.dir

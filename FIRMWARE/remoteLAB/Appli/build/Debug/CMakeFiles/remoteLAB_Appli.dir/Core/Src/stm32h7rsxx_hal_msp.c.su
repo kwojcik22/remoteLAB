@@ -1,0 +1,3 @@
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/Core/Src/stm32h7rsxx_hal_msp.c:62:6:HAL_MspInit	4	static
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/Core/Src/stm32h7rsxx_hal_msp.c:84:6:HAL_ADC_MspInit	160	static
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli/Core/Src/stm32h7rsxx_hal_msp.c:144:6:HAL_ADC_MspDeInit	16	static

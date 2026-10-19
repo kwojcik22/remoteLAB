@@ -1,0 +1,13 @@
+# Target labels
+ remoteLAB_Appli
+# Source files and their labels
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Appli
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Appli.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Appli-complete.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-build.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-install.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch.rule
+C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update.rule

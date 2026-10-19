@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "remoteLAB",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "remoteLAB_Appli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-remoteLAB_Appli-Debug-db585de255b8f6eae7ec.json",
+					"name" : "remoteLAB_Appli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "remoteLAB_Boot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-remoteLAB_Boot-Debug-26c2fa6add43bce7e80a.json",
+					"name" : "remoteLAB_Boot",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug",
+		"source" : "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
