@@ -1,1 +1,0 @@
-cmd='C:/Users/kwojcik/msys2/ucrt64/bin/cmake.exe;-DCMAKE_EXPORT_COMPILE_COMMANDS=ON;-DCMAKE_TOOLCHAIN_FILE=C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/gcc-arm-none-eabi.cmake;-DCMAKE_BUILD_TYPE=Debug;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

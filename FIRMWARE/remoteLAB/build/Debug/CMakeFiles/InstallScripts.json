@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake_install.cmake"
+		"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake_install.cmake",
+		"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

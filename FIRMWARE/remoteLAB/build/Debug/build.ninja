@@ -40,17 +40,107 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/
-
-#############################################
-# Utility command for remoteLAB_Appli
-
-build remoteLAB_Appli: phony CMakeFiles/remoteLAB_Appli CMakeFiles/remoteLAB_Appli-complete Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-done Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-install Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update
+# =============================================================================
+# Object build statements for EXECUTABLE target remoteLAB
 
 
 #############################################
-# Utility command for remoteLAB_Boot
+# Order-only phony target for remoteLAB
 
-build remoteLAB_Boot: phony CMakeFiles/remoteLAB_Boot CMakeFiles/remoteLAB_Boot-complete Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-done Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-install Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update
+build cmake_object_order_depends_target_remoteLAB: phony || cmake_object_order_depends_target_STM32_Drivers
+
+build CMakeFiles/remoteLAB.dir/Core/Src/main.c.obj: C_COMPILER__remoteLAB_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Core/Src/main.c || cmake_object_order_depends_target_remoteLAB
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\remoteLAB.dir\Core\Src\main.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  OBJECT_FILE_DIR = CMakeFiles\remoteLAB.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
+
+build CMakeFiles/remoteLAB.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER__remoteLAB_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Core/Src/stm32f4xx_it.c || cmake_object_order_depends_target_remoteLAB
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\remoteLAB.dir\Core\Src\stm32f4xx_it.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  OBJECT_FILE_DIR = CMakeFiles\remoteLAB.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
+
+build CMakeFiles/remoteLAB.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__remoteLAB_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Core/Src/stm32f4xx_hal_msp.c || cmake_object_order_depends_target_remoteLAB
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\remoteLAB.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  OBJECT_FILE_DIR = CMakeFiles\remoteLAB.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
+
+build CMakeFiles/remoteLAB.dir/Core/Src/sysmem.c.obj: C_COMPILER__remoteLAB_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Core/Src/sysmem.c || cmake_object_order_depends_target_remoteLAB
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\remoteLAB.dir\Core\Src\sysmem.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  OBJECT_FILE_DIR = CMakeFiles\remoteLAB.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
+
+build CMakeFiles/remoteLAB.dir/Core/Src/syscalls.c.obj: C_COMPILER__remoteLAB_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Core/Src/syscalls.c || cmake_object_order_depends_target_remoteLAB
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\remoteLAB.dir\Core\Src\syscalls.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  OBJECT_FILE_DIR = CMakeFiles\remoteLAB.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
+
+build CMakeFiles/remoteLAB.dir/startup_stm32f407xx.s.obj: ASM_COMPILER__remoteLAB_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/startup_stm32f407xx.s || cmake_object_order_depends_target_remoteLAB
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\remoteLAB.dir\startup_stm32f407xx.s.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  OBJECT_FILE_DIR = CMakeFiles\remoteLAB.dir
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target remoteLAB
+
+
+#############################################
+# Link the executable remoteLAB.elf
+
+build remoteLAB.elf: C_EXECUTABLE_LINKER__remoteLAB_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj CMakeFiles/remoteLAB.dir/Core/Src/main.c.obj CMakeFiles/remoteLAB.dir/Core/Src/stm32f4xx_it.c.obj CMakeFiles/remoteLAB.dir/Core/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/remoteLAB.dir/Core/Src/sysmem.c.obj CMakeFiles/remoteLAB.dir/Core/Src/syscalls.c.obj CMakeFiles/remoteLAB.dir/startup_stm32f407xx.s.obj || cmake/stm32cubemx/STM32_Drivers
+  CONFIG = Debug
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3
+  LINK_FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/STM32F407XX_FLASH.ld" --specs=nano.specs -Wl,-Map=remoteLAB.map -Wl,--gc-sections -Wl,--print-memory-usage
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = CMakeFiles\remoteLAB.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\remoteLAB.dir\
+  TARGET_FILE = remoteLAB.elf
+  TARGET_PDB = remoteLAB.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\remoteLAB.dir
 
 
 #############################################
@@ -75,160 +165,236 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for OBJECT_LIBRARY target STM32_Drivers
+
 
 #############################################
-# Phony custom command for CMakeFiles\remoteLAB_Appli
+# Order-only phony target for STM32_Drivers
 
-build CMakeFiles/remoteLAB_Appli | ${cmake_ninja_workdir}CMakeFiles/remoteLAB_Appli: phony CMakeFiles/remoteLAB_Appli-complete
+build cmake_object_order_depends_target_STM32_Drivers: phony || .
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Core/Src/system_stm32f4xx.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Core\Src\system_stm32f4xx.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Core\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Core/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+
 
 
 #############################################
-# Custom command for CMakeFiles\remoteLAB_Appli-complete
+# Object library STM32_Drivers
 
-build CMakeFiles/remoteLAB_Appli-complete Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-done | ${cmake_ninja_workdir}CMakeFiles/remoteLAB_Appli-complete ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-done: CUSTOM_COMMAND Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-install Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-install
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E make_directory "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Appli-complete" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-done""
-  DESC = Completed 'remoteLAB_Appli'
+build cmake/stm32cubemx/STM32_Drivers: phony cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj
+
+
+#############################################
+# Utility command for edit_cache
+
+build cmake/stm32cubemx/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\cmake\stm32cubemx" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
   restat = 1
 
-
-#############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-build
-
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-build | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-build: CUSTOM_COMMAND Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\Appli" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe --build ."
-  DESC = Performing build step for 'remoteLAB_Appli'
+build cmake/stm32cubemx/edit_cache: phony cmake/stm32cubemx/CMakeFiles/edit_cache.util
 
 
 #############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-configure
+# Utility command for rebuild_cache
 
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure: CUSTOM_COMMAND Appli-prefix/tmp/remoteLAB_Appli-cfgcmd.txt Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\Appli" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -DCMAKE_EXPORT_COMPILE_COMMANDS=ON "-DCMAKE_TOOLCHAIN_FILE=C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/gcc-arm-none-eabi.cmake" -DCMAKE_BUILD_TYPE=Debug -GNinja -S "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Appli" -B "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-configure""
-  DESC = Performing configure step for 'remoteLAB_Appli'
+build cmake/stm32cubemx/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\cmake\stm32cubemx" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB" -B"C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
   restat = 1
 
-
-#############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-download
-
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download: CUSTOM_COMMAND Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-source_dirinfo.txt Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download""
-  DESC = No download step for 'remoteLAB_Appli'
-  restat = 1
-
-
-#############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-install
-
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-install | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-install: CUSTOM_COMMAND Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-build
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\Appli" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append"
-  DESC = No install step for 'remoteLAB_Appli'
-
-
-#############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-mkdir
-
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -Dcfgdir= -P "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/tmp/remoteLAB_Appli-mkdirs.cmake" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-mkdir""
-  DESC = Creating directories for 'remoteLAB_Appli'
-  restat = 1
-
-
-#############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-patch
-
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch: CUSTOM_COMMAND Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch-info.txt Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-patch""
-  DESC = No patch step for 'remoteLAB_Appli'
-  restat = 1
-
-
-#############################################
-# Custom command for Appli-prefix\src\remoteLAB_Appli-stamp\remoteLAB_Appli-update
-
-build Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update | ${cmake_ninja_workdir}Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update: CUSTOM_COMMAND Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update-info.txt Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-download
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Appli-prefix/src/remoteLAB_Appli-stamp/remoteLAB_Appli-update""
-  DESC = No update step for 'remoteLAB_Appli'
-  restat = 1
-
-
-#############################################
-# Phony custom command for CMakeFiles\remoteLAB_Boot
-
-build CMakeFiles/remoteLAB_Boot | ${cmake_ninja_workdir}CMakeFiles/remoteLAB_Boot: phony CMakeFiles/remoteLAB_Boot-complete
-
-
-#############################################
-# Custom command for CMakeFiles\remoteLAB_Boot-complete
-
-build CMakeFiles/remoteLAB_Boot-complete Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-done | ${cmake_ninja_workdir}CMakeFiles/remoteLAB_Boot-complete ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-done: CUSTOM_COMMAND Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-install Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-install
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E make_directory "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/CMakeFiles/remoteLAB_Boot-complete" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-done""
-  DESC = Completed 'remoteLAB_Boot'
-  restat = 1
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-build
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-build | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-build: CUSTOM_COMMAND Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\Boot" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe --build ."
-  DESC = Performing build step for 'remoteLAB_Boot'
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-configure
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure: CUSTOM_COMMAND Boot-prefix/tmp/remoteLAB_Boot-cfgcmd.txt Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\Boot" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -DCMAKE_EXPORT_COMPILE_COMMANDS=ON "-DCMAKE_TOOLCHAIN_FILE=C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/gcc-arm-none-eabi.cmake" -DCMAKE_BUILD_TYPE=Debug -GNinja -S "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/Boot" -B "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-configure""
-  DESC = Performing configure step for 'remoteLAB_Boot'
-  restat = 1
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-download
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download: CUSTOM_COMMAND Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-source_dirinfo.txt Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download""
-  DESC = No download step for 'remoteLAB_Boot'
-  restat = 1
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-install
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-install | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-install: CUSTOM_COMMAND Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-build
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug\Boot" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append"
-  DESC = No install step for 'remoteLAB_Boot'
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-mkdir
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -Dcfgdir= -P "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/tmp/remoteLAB_Boot-mkdirs.cmake" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-mkdir""
-  DESC = Creating directories for 'remoteLAB_Boot'
-  restat = 1
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-patch
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch: CUSTOM_COMMAND Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch-info.txt Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-patch""
-  DESC = No patch step for 'remoteLAB_Boot'
-  restat = 1
-
-
-#############################################
-# Custom command for Boot-prefix\src\remoteLAB_Boot-stamp\remoteLAB_Boot-update
-
-build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update | ${cmake_ninja_workdir}Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update: CUSTOM_COMMAND Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update-info.txt Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-download
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Projekty_ smietnik\remoteLAB\FIRMWARE\remoteLAB\build\Debug" && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E echo_append && C:\Users\kwojcik\msys2\ucrt64\bin\cmake.exe -E touch "C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update""
-  DESC = No update step for 'remoteLAB_Boot'
-  restat = 1
+build cmake/stm32cubemx/rebuild_cache: phony cmake/stm32cubemx/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build STM32_Drivers: phony cmake/stm32cubemx/STM32_Drivers
+
+build remoteLAB: phony remoteLAB.elf
 
 # =============================================================================
 # Folder targets.
@@ -238,7 +404,14 @@ build Boot-prefix/src/remoteLAB_Boot-stamp/remoteLAB_Boot-update | ${cmake_ninja
 #############################################
 # Folder: C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug
 
-build all: phony remoteLAB_Appli remoteLAB_Boot
+build all: phony remoteLAB.elf cmake/stm32cubemx/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake/stm32cubemx
+
+build cmake/stm32cubemx/all: phony cmake/stm32cubemx/STM32_Drivers
 
 # =============================================================================
 # Built-in targets
@@ -247,14 +420,14 @@ build all: phony remoteLAB_Appli remoteLAB_Boot
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake_install.cmake: RERUN_CMAKE | Appli-prefix/tmp/remoteLAB_Appli-mkdirs.cmake Boot-prefix/tmp/remoteLAB_Boot-mkdirs.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/CMakeLists.txt C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/gcc-arm-none-eabi.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/mx-generated.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/PatchInfo.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/cfgcmd.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/mkdirs.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
+build build.ninja C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake_install.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/build/Debug/cmake/stm32cubemx/cmake_install.cmake: RERUN_CMAKE | C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/CMakeLists.txt C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/gcc-arm-none-eabi.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/CMakeLists.txt C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeASMCompiler.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeASMInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestASMCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-ASM.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeInspectASMLinker.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.4.2/CMakeASMCompiler.cmake CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build Appli-prefix/tmp/remoteLAB_Appli-mkdirs.cmake Boot-prefix/tmp/remoteLAB_Boot-mkdirs.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/CMakeLists.txt C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/gcc-arm-none-eabi.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/mx-generated.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/PatchInfo.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/UpdateInfo.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/cfgcmd.txt.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/mkdirs.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
+build C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/CMakeLists.txt C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/gcc-arm-none-eabi.cmake C$:/Projekty_$ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/stm32cubemx/CMakeLists.txt C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeASMCompiler.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeASMInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestASMCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-ASM.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeInspectASMLinker.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/Users/kwojcik/msys2/ucrt64/share/cmake/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.4.2/CMakeASMCompiler.cmake CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
 
 
 #############################################
