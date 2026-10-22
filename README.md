@@ -6,7 +6,7 @@ A single-board platform based on the STM32H5 family for evaluating Ethernet, USB
 
 | Area | Specification |
 |---|---|
-| MCU | STM32H5 family (H563/H573); exact device and package to be confirmed after pin budget analysis in CubeMX |
+| MCU | STM32F4 family (F407VGTx); exact device and package to be confirmed after pin budget analysis in CubeMX |
 | Power | USB-C, 5 V only (sink); no external supply input |
 | Analog | 2 input and 2 output channels built around operational amplifiers, using the MCU's internal ADC and DAC; ranges and component selection to be defined by the designer |
 | USB | USB-TMC (SCPI); proposed: CDC console and DFU |
