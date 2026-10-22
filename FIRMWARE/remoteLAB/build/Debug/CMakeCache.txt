@@ -228,8 +228,10 @@ CMAKE_STRIP:FILEPATH=C:/ST/STM32CubeIDE_1.10.1/STM32CubeIDE/plugins/com.st.stm32
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/gcc-arm-none-eabi.cmake
+//Path to a CMake toolchain file, read early in the CMake run,
+// that specifies the compilers, toolchain utilities, and target-platform
+// information used when cross-compiling.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:/Projekty_ smietnik/remoteLAB/FIRMWARE/remoteLAB/cmake/gcc-arm-none-eabi.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console

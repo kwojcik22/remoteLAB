@@ -78,14 +78,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-6eaf5cbe991e257f8e58.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-8be8eb8c5dca54297f36.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "remoteLAB::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-remoteLAB-Debug-2284f8805cde807860b0.json",
+					"jsonFile" : "target-remoteLAB-Debug-60fa83bd1f06b3eb46dd.json",
 					"name" : "remoteLAB",
 					"projectIndex" : 0
 				}
