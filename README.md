@@ -26,7 +26,7 @@ flowchart LR
     BLE[BLE device<br/>proposed: BlueNRG-2]
     Antenna[Custom antenna<br/>pi matching network]
     Display[TFT display<br/>ST7796S]
-    MCU[STM32H5<br/>USB, RMII, SPI<br/>shared SCPI core proposed]
+    MCU[STM32F4<br/>USB, RMII, SPI<br/>shared SCPI core proposed]
     Inputs[2 analog input stages<br/>op amps and filters]
     Outputs[2 analog output stages<br/>op amps and buffers]
     ADC[Internal ADC]
@@ -68,13 +68,14 @@ A full-frame update is 320 × 480 × 16 bit ≈ 2.46 Mbit. At an SPI clock of 40
 
 ## Design Decisions
 
-- The STM32H5 family does not provide an LTDC peripheral. RGB displays and LVDS display links are therefore excluded, and LVDS has been removed from the scope.
+- _The STM32!H5! family does not provide an LTDC peripheral. RGB displays and LVDS display links are therefore excluded, and LVDS has been removed from the scope_.
 - The display interface is SPI. The FMC peripheral is not used.
 - A previously considered BTL power amplifier for a function generator has been cancelled.
 
 ## Pin Budget (estimate)
 
 Approximately 35–40 GPIO: RMII (9–10), SPI to the BLE device (about 6), SPI to the display including DC, reset, TE and backlight PWM (about 7), USB (2, plus CC resistors), ADC/DAC (4–6), SWD and boot (about 5). To be verified in CubeMX with respect to alternate-function conflicts.
+![alt text]({FCEB32DA-91F9-47DC-964C-6AFA8546D482}.png)
 
 ## Power Considerations (USB-C, 5 V)
 
