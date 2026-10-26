@@ -409,11 +409,50 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
+    "top_level_sheets": [
+      {
+        "filename": "remoteLAB.kicad_sch",
+        "name": "remoteLAB",
+        "uuid": "39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+      }
+    ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "39044e15-e659-4a92-a5b0-77c5a2b4a5a0",
+      "remoteLAB"
+    ],
+    [
+      "877dda92-b7a1-4b25-bda1-68c5d037ac51",
+      "MCU"
+    ],
+    [
+      "36da4191-3b4b-48ce-9797-2b39a6f35901",
+      "Analog output"
+    ],
+    [
+      "88272fc9-2822-402c-8341-3a3720d5bcd0",
+      "TFT"
+    ],
+    [
+      "34b5af91-e0e1-4bc9-8f5e-fb1575d923f6",
+      "Bluetooth"
+    ],
+    [
+      "6f1ba000-c341-4b03-9730-fbbfb1039651",
+      "Analog input"
+    ],
+    [
+      "b12d22a6-e9f0-4eb6-854b-c2878c4b49a1",
+      "Ethernet"
+    ],
+    [
+      "155565c6-7c7d-47b7-b0dd-603f45cac94b",
+      "USBC"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

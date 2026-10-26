@@ -2,9 +2,342 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 39044e15-e659-4a92-a5b0-77c5a2b4a5a0)
+	(uuid "39044e15-e659-4a92-a5b0-77c5a2b4a5a0")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 47.244 39.37)
+		(size 43.942 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "155565c6-7c7d-47b7-b0dd-603f45cac94b")
+		(property "Sheetname" "USBC"
+			(at 47.244 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbc.kicad_sch"
+			(at 47.244 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.168 110.49)
+		(size 44.196 24.638)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "34b5af91-e0e1-4bc9-8f5e-fb1575d923f6")
+		(property "Sheetname" "Bluetooth"
+			(at 201.168 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bluetooth.kicad_sch"
+			(at 201.168 135.7126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 201.168 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.168 64.516)
+		(size 45.212 36.322)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36da4191-3b4b-48ce-9797-2b39a6f35901")
+		(property "Sheetname" "Analog output"
+			(at 201.168 63.8044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_out.kicad_sch"
+			(at 201.168 101.4226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.482 68.326)
+		(size 44.958 32.512)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6f1ba000-c341-4b03-9730-fbbfb1039651")
+		(property "Sheetname" "Analog input"
+			(at 46.482 67.6144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_in.kicad_sch"
+			(at 46.482 101.4226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.032 64.77)
+		(size 47.498 35.814)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "877dda92-b7a1-4b25-bda1-68c5d037ac51")
+		(property "Sheetname" "MCU"
+			(at 129.032 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 129.032 101.1686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.168 25.908)
+		(size 45.466 28.448)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "88272fc9-2822-402c-8341-3a3720d5bcd0")
+		(property "Sheetname" "TFT"
+			(at 201.168 25.1964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TFT.kicad_sch"
+			(at 201.168 54.9406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.482 113.284)
+		(size 44.704 10.414)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b12d22a6-e9f0-4eb6-854b-c2878c4b49a1")
+		(property "Sheetname" "Ethernet"
+			(at 46.482 112.5724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 46.482 124.2826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "remoteLAB"
+				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
