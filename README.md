@@ -1,6 +1,6 @@
 # remoteLAB
 
-A single-board platform based on the STM32H5 family for evaluating Ethernet, USB, Bluetooth Low Energy with a custom antenna, operational-amplifier and buffer stages, and an SPI TFT display. The board is also intended to serve as a SCPI-controlled measurement node in a home laboratory.
+A single-board platform based on the STM32F4 family for evaluating Ethernet, USB, Bluetooth Low Energy with a custom antenna, operational-amplifier and buffer stages, and an SPI TFT display. The board is also intended to serve as a SCPI-controlled measurement node in a home laboratory.
 
 ## Overview
 
@@ -68,7 +68,7 @@ A full-frame update is 320 × 480 × 16 bit ≈ 2.46 Mbit. At an SPI clock of 40
 
 ## Design Decisions
 
-- _The STM32!H5! family does not provide an LTDC peripheral. RGB displays and LVDS display links are therefore excluded, and LVDS has been removed from the scope_.
+- The STM32F4 family does not provide an LTDC peripheral. RGB displays and LVDS display links are therefore excluded, and LVDS has been removed from the scope.
 - The display interface is SPI. The FMC peripheral is not used.
 - A previously considered BTL power amplifier for a function generator has been cancelled.
 
