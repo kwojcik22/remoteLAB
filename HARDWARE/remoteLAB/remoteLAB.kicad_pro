@@ -375,7 +375,62 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "ETH_SPI": [
+        "SI",
+        "SO",
+        "CLK",
+        "nINT",
+        "CS"
+      ],
+      "TFT": [
+        "LEDK6-",
+        "LEDK5-",
+        "LEDK4-",
+        "LEDK3-",
+        "LEDK2-",
+        "LEDK1-",
+        "LEDA",
+        "GND",
+        "VDD",
+        "VDDI",
+        "TE",
+        "CSX",
+        "DCX",
+        "WRX/SCL",
+        "RDX",
+        "SDA",
+        "SDO",
+        "DB0",
+        "DB1",
+        "DB2",
+        "DB3",
+        "DB4",
+        "DB5",
+        "DB6",
+        "DB7",
+        "DB8",
+        "DB9",
+        "DB10",
+        "DB11",
+        "DB12",
+        "DB13",
+        "DB14",
+        "DB15",
+        "DB16",
+        "DB17",
+        "ENABLE",
+        "DOTLCK",
+        "HSYNC",
+        "GND",
+        "VSYNC",
+        "RESET",
+        "IM2",
+        "IM1",
+        "IM0",
+        "GND"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -416,7 +471,7 @@
         "uuid": "39044e15-e659-4a92-a5b0-77c5a2b4a5a0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC1,R1-11,R30,R32-44,R59,J1-3,J5,J13,AE1,L1-5,#PWR1-23,#PWR77-129,#PWR138-141,#PWR145,C1-2,C8-12,C18-23,C33-50,C97-100,U1-2,U7-8,U13,Y1-3,FB1-4,JP2,P1-2",
     "variants": []
   },
   "sheets": [

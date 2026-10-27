@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BLUENRG-232NS
+D Bluetooth LE wireless network coprocessor
+K
+F https://www.st.com/resource/en/datasheet/bluenrg-2n.pdf
+$ENDCMP
+#
+#End Doc Library

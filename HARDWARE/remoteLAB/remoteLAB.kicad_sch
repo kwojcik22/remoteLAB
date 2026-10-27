@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 47.244 39.37)
-		(size 43.942 19.05)
+		(at 50.8 25.4)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "155565c6-7c7d-47b7-b0dd-603f45cac94b")
 		(property "Sheetname" "USBC"
-			(at 47.244 38.6584 0)
+			(at 50.8 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "usbc.kicad_sch"
-			(at 47.244 59.0046 0)
+			(at 50.8 51.8926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 201.168 110.49)
-		(size 44.196 24.638)
+		(at 203.2 127)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "34b5af91-e0e1-4bc9-8f5e-fb1575d923f6")
 		(property "Sheetname" "Bluetooth"
-			(at 201.168 109.7784 0)
+			(at 203.2 126.2884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "bluetooth.kicad_sch"
-			(at 201.168 135.7126 0)
+			(at 203.2 153.4926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -90,7 +90,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 201.168 110.49 0)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,6 +98,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "BT_RSTN" input
+			(at 203.2 137.16 180)
+			(uuid "b2d4cb0c-a039-4c56-a98b-d379a22a9b73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_RX" input
+			(at 203.2 139.7 180)
+			(uuid "ed1d9a71-a265-4997-876c-a1de60e4bf45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_TX" input
+			(at 203.2 142.24 180)
+			(uuid "e35bac56-5aa4-4af8-889c-25c9299a14e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -109,8 +139,8 @@
 		)
 	)
 	(sheet
-		(at 201.168 64.516)
-		(size 45.212 36.322)
+		(at 203.2 76.2)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -125,7 +155,7 @@
 		)
 		(uuid "36da4191-3b4b-48ce-9797-2b39a6f35901")
 		(property "Sheetname" "Analog output"
-			(at 201.168 63.8044 0)
+			(at 203.2 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -136,7 +166,7 @@
 			)
 		)
 		(property "Sheetfile" "analog_out.kicad_sch"
-			(at 201.168 101.4226 0)
+			(at 203.2 101.9306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155,8 +185,8 @@
 		)
 	)
 	(sheet
-		(at 46.482 68.326)
-		(size 44.958 32.512)
+		(at 50.8 76.2)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -171,7 +201,7 @@
 		)
 		(uuid "6f1ba000-c341-4b03-9730-fbbfb1039651")
 		(property "Sheetname" "Analog input"
-			(at 46.482 67.6144 0)
+			(at 50.8 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,7 +212,7 @@
 			)
 		)
 		(property "Sheetfile" "analog_in.kicad_sch"
-			(at 46.482 101.4226 0)
+			(at 50.8 102.9466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -201,8 +231,8 @@
 		)
 	)
 	(sheet
-		(at 129.032 64.77)
-		(size 47.498 35.814)
+		(at 127 50.8)
+		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -217,7 +247,7 @@
 		)
 		(uuid "877dda92-b7a1-4b25-bda1-68c5d037ac51")
 		(property "Sheetname" "MCU"
-			(at 129.032 64.0584 0)
+			(at 127 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -228,7 +258,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 129.032 101.1686 0)
+			(at 127 102.4386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -247,8 +277,8 @@
 		)
 	)
 	(sheet
-		(at 201.168 25.908)
-		(size 45.466 28.448)
+		(at 203.2 25.4)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -263,7 +293,7 @@
 		)
 		(uuid "88272fc9-2822-402c-8341-3a3720d5bcd0")
 		(property "Sheetname" "TFT"
-			(at 201.168 25.1964 0)
+			(at 203.2 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -274,7 +304,7 @@
 			)
 		)
 		(property "Sheetfile" "TFT.kicad_sch"
-			(at 201.168 54.9406 0)
+			(at 203.2 51.1306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -282,6 +312,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{TFT}" input
+			(at 203.2 36.83 180)
+			(uuid "cd2b40cf-201a-47f2-bbcd-fa6fb96ad2c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -293,8 +333,8 @@
 		)
 	)
 	(sheet
-		(at 46.482 113.284)
-		(size 44.704 10.414)
+		(at 50.8 127)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -309,7 +349,7 @@
 		)
 		(uuid "b12d22a6-e9f0-4eb6-854b-c2878c4b49a1")
 		(property "Sheetname" "Ethernet"
-			(at 46.482 112.5724 0)
+			(at 50.8 126.2884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -320,7 +360,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 46.482 124.2826 0)
+			(at 50.8 153.2386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -328,6 +368,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ETH_RST" input
+			(at 101.6 138.43 0)
+			(uuid "d2d6aeff-87c5-4023-b46b-661161fd1371")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ETH_SPI}" input
+			(at 101.6 140.97 0)
+			(uuid "f95506d6-c5cc-4ca6-9693-8f50746bcab3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
