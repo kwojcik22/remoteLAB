@@ -43,6 +43,26 @@
 				(justify left top)
 			)
 		)
+		(pin "DD+" input
+			(at 101.6 34.29 0)
+			(uuid "df3b6a40-2d54-496b-bf9b-dca95143b492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DD-" input
+			(at 101.6 36.83 0)
+			(uuid "d668d283-9776-4622-9ee9-c309fc085d37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "remoteLAB"
 				(path "/39044e15-e659-4a92-a5b0-77c5a2b4a5a0"

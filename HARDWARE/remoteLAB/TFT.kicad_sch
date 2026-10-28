@@ -4498,7 +4498,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ad7433f-548d-4dc5-9f0a-e281b5eb62ec")
+			(uuid "6ad7433f-548d-4dc5-9f0a-e281b5eb62ed")
 		)
 		(instances
 			(project "remoteLAB"
@@ -4575,10 +4575,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "73c417c9-451b-4782-b9a7-66a5a316e551")
+			(uuid "73c417c9-451b-4782-b9a7-66a5a316e552")
 		)
 		(pin "2"
-			(uuid "27bd3510-09b0-4e4b-910a-bdc65da6c5e4")
+			(uuid "27bd3510-09b0-4e4b-910a-bdc65da6c5e5")
 		)
 		(instances
 			(project "remoteLAB"
@@ -4814,10 +4814,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "73c417c9-451b-4782-b9a7-66a5a316e551")
+			(uuid "73c417c9-451b-4782-b9a7-66a5a316e553")
 		)
 		(pin "2"
-			(uuid "27bd3510-09b0-4e4b-910a-bdc65da6c5e4")
+			(uuid "27bd3510-09b0-4e4b-910a-bdc65da6c5e6")
 		)
 		(instances
 			(project "remoteLAB"
@@ -4897,7 +4897,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "145bc3e8-bbd3-433c-941f-ecb607b2b9d4")
+			(uuid "145bc3e8-bbd3-433c-941f-ecb607b2b9d5")
 		)
 		(instances
 			(project "remoteLAB"
